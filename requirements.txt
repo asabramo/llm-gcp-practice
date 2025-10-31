@@ -1,0 +1,6 @@
+python-dotenv
+scikit-learn
+numpy
+xmltodict
+google-genai
+firebase-admin
