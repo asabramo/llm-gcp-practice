@@ -11,8 +11,14 @@ What this repo does:
 ## Step 2: Introduce tools
 - Convert the RAG fetch to be a tool, and let the LLM decide whether and when it wants to use it, although we are strongly nudging it towards that
 
+## Step 3: Make it an Agent
+- Generalized the tools class
+- Create an Agent class that loops until it reaches the goal, making tool calls and LLM calls as needed
+- The agent is generic, it knows nothing about coffee, the main function provides coffee related tools and prompts
+
 # TODO:
-- Implement an agent wrapper. The goal would be to make the best coffee. We'll have a class that implements coffee tools like "buy equipment", "Make Coffee", and "Taste", and the agent will work with the RAG and action tools until it reaches a good enough result.
+- Use native Gemini infras for calling python functions and for goal detection
+- Add better user interface
 
 # Setup (windows)
 ```bat
