@@ -34,15 +34,3 @@ class EmbeddingMan:
                     ).embeddings
         print(f"Embedding vector: {result}")
         return Vector(result[0].values)
-
-    # def calcSimilarity(self, doc1, doc2):
-        # # Calculate cosine similarity. Higher scores = greater semantic similarity.
-
-        # embeddings_matrix = np.array(self.calcEbedding(doc1))
-        # similarity_matrix = cosine_similarity(embeddings_matrix)
-
-        # for i, text1 in enumerate(texts):
-        #     for j in range(i + 1, len(texts)):
-        #         text2 = texts[j]
-        #         similarity = similarity_matrix[i, j]
-        #         print(f"Similarity between '{text1}' and '{text2}': {similarity:.4f}")

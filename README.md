@@ -1,4 +1,6 @@
-# LLM Practice on GCP
+# LLM Practice on GCP, AKA My Coffee Making AI Agent
+
+See my detailed blog about this repo at: https://sites.google.com/site/assiabramovitz/blogs/building-an-ai-agent-from-scratch
 
 The data is from: https://archive.org/details/stackexchange
 What this repo does:
