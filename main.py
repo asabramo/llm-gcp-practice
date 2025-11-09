@@ -33,7 +33,7 @@ def ingestDB(fs):
 
 print("Starting!")
 
-system_prompt = """You are a cofee guru, answer the questions of the cofee enthusiasts, 
+system_prompt = """You are a coffee guru, answer the questions of the coffee enthusiasts, 
                 if they ask you to DO something for them, you are more than happy to do it, using the functions at your disposal. 
                 Assume you have no materials and tools, you need to obtain them to have them. 
                 Always start by looking up expert information, if you cannot find any, only then apply common sense.
@@ -41,10 +41,10 @@ system_prompt = """You are a cofee guru, answer the questions of the cofee enthu
                 If you believe the goal has been reached, write GOAL_REACHED_YAY in the response 
                 """
 
-print("Hi, I'm your Cofee Guru, I'd love to make you the best possible cup of coffee. What would you like?")
+print("Hi, I'm your Coffee Guru, I'd love to make you the best possible cup of coffee. What would you like?")
 print("""Classic examples:
         - Which beans and espresso machine do I need for a classic Italian afternoon espresso? Make me one of those
-        - "Make me a cup of cofee using Illy ground coffee and a Belliani machinetta, buy anything you need to"
+        - "Make me a cup of coffee using Illy ground coffee and a Belliani machinetta, buy anything you need to"
       """)
 input_query=input()
 embedder = EmbeddingMan()

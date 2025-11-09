@@ -18,7 +18,7 @@ class CoffeeTools(AgentToolsBase) :
                 "properties": {                    
                     "tools_and_materials": {
                         "type": "string",
-                        "description": "The tools and materials used to prepare the cofee",
+                        "description": "The tools and materials used to prepare the coffee",
                     },                    
                     "instructions": {
                         "type": "string",

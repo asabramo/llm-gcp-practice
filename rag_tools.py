@@ -5,7 +5,7 @@ from google.genai import types
 
 '''
 A RAG tool, answering coffee related questions, to be used by the agent
-TODO: generalize so that the RAG and the cofee related stuff are de-coupled
+TODO: generalize so that the RAG and the coffee related stuff are de-coupled
 '''
 class RagTools(AgentToolsBase):
     def __init__(self, embedder) -> None:
@@ -15,7 +15,7 @@ class RagTools(AgentToolsBase):
     def getToolDefinition(self):
         fetch_related_docs_function = {
             "name": "coffee_expert_search",
-            "description": "Cofee expert answers for any coffee related questions",
+            "description": "Coffee expert answers for any coffee related questions",
             "parameters": {
                 "type": "object",
                 "properties": {                    
